@@ -50,3 +50,33 @@ body{
                 0 0 35px rgba(255, 0, 0, 0.5);
             }
         }
+        .quicknav{width: 15%;
+            background-color: #1d1d1d8c;
+        }
+
+        .quicknav:hover{
+            background-color: #ff0000;
+
+        }
+        input, select, button {
+            width: 92%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 4px;
+            font-size: 1.65vh;
+            font-family: "Press Start 2P", system-ui;
+            border: 1px solid #333;
+            background: #333;
+            color: #E0E0E0;
+        }
+        button {
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: all ease 0.3s;
+        }
+        button:hover {
+            background-color: #ff0000;
+            animation: shine 2s infinite;
+        }
